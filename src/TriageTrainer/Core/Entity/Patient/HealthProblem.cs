@@ -1,13 +1,7 @@
 namespace TriageTrainer.Core.Entity.Patient
 {
-  public enum HealthProblem
+  public class HealthProblem
   {
-    Fracture,
-    Bleeding,
-    Burn,
-    CardiacArrest,
-    Stroke,
-    AllergicReaction,
-    RespiratoryDistress
+    public HealthProblemType type;
   }
 }
