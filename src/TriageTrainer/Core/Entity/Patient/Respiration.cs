@@ -2,8 +2,6 @@ namespace TriageTrainer.Core.Entity.Patient
 {
   /// <summary>
   /// 환자의 호흡 상태를 정의합니다.
-  /// - awRR: 
-  /// - type: RespirationType 호흡 유형
   /// </summary>
   public class Respiration
   {
